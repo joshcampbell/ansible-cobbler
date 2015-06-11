@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  sudo: true
-  sudo_user: root
+  user: root
   roles:
     - ansible-cobbler
